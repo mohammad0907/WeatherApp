@@ -1,0 +1,156 @@
+
+body{
+ 
+  font-family: 'Fira Sans', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.mainContainerBox{
+  display: flex;
+  justify-content: center;
+  
+  background-image: url(backg2.jpg);
+  background-size: cover;
+  
+ 
+}
+
+
+.containerBox{
+  
+  width: 75%;
+  display: flex;
+  position: relative;
+  top: 50px;
+
+  
+}
+
+
+.desc{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+ 
+}
+
+.mainDesc{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+.mainDesc > div{
+  margin-bottom: 35px;
+}
+
+.information{
+  width: 75%;
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.searchField{
+  width: 100%;
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  height: 10%;
+ 
+}
+
+.info{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: -70px;
+  height: 40%;
+  margin-top: 40px
+}
+
+
+
+
+.cityTitle{
+  display :flex;
+  flex-Direction: column;
+   align-Items: center;
+    margin-Top:20px;
+}
+
+.photo{
+  display :flex;
+   justify-Content:center;
+}
+
+
+@media only screen and (max-width: 1350px){
+ .mainContainerBox{
+   height: 100%;
+ }
+  .containerBox{
+  
+    width: 100%;
+    height: 100%;
+    
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+  }
+  .desc{
+    width: 100%;
+    display: none;
+   
+    
+    
+    
+   
+  }
+  .cityTitle{
+   
+   
+    display: none;
+  }
+  .photo{
+    display: none;
+  }
+
+  .information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  .searchField{
+ 
+    
+  }
+
+  .info{
+    
+    width: 100%;
+    
+    margin-left: 0px;
+    flex-wrap: wrap;
+    
+  }
+  
+
+}
