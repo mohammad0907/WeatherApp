@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     
     fontFamily: 'Fira Sans, sans-serif',
     backgroundColor: "inherit",
-    color: "white"
+    
   },
   bullet: {
     display: 'inline-block',

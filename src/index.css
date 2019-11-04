@@ -2,17 +2,19 @@
 body{
  
   font-family: 'Fira Sans', sans-serif;
+ 
+  background-image: url(backg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+
+  color : black
 }
 
 .mainContainerBox{
   display: flex;
   justify-content: center;
   
-  background-image: url(backg2.jpg);
-  background-size: cover;
+ 
   
  
 }
@@ -24,8 +26,10 @@ body{
   display: flex;
   position: relative;
   top: 50px;
-
-  
+  background-color: white;
+  -webkit-box-shadow: 2px 13px 29px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 13px 29px 3px rgba(0,0,0,0.75);
+box-shadow: 2px 13px 29px 3px rgba(0,0,0,0.75);
 }
 
 

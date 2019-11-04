@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
     width: 300,
-    color:"white"
+    
     
   },
  
@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     top: 15
   },
   multilineColor:{
-    color:"white",
+   
     borderBottomColor:"white"
   }
 }));
